@@ -1,74 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | 홍길동</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Noona</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Malgun Gothic', sans-serif; background: #1a1b26; color: #c0caf5; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+    .container { text-align: center; }
+    h1 { margin-bottom: 24px; font-size: 1.5rem; }
+    ul { list-style: none; }
+    a { display: inline-block; margin: 8px; padding: 12px 24px; background: #7aa2f7; color: #1a1b26; text-decoration: none; border-radius: 8px; font-weight: 500; }
+    a:hover { background: #89b4fa; }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-        <section id="about" class="section hero">
-            <div class="profile-card">
-                <div class="card-wrapper">
-                    <div class="side-border left"></div>
-                    <div class="content-area">
-                        <img src="images/profile.png" alt="Profile" class="profile-image">
-                    </div>
-                    <div class="side-border right"></div>
-                </div>
-                <div class="bottom-band">
-                    <span class="profile-name">홍길동</span>
-                    <span class="profile-title">Designer / Developer</span>
-                </div>
-            </div>
-            <p class="intro-text">안녕하세요. 작업물을 공유하는 포트폴리오 사이트입니다.</p>
-        </section>
-
-        <section id="projects" class="section">
-            <h2 class="section-title">Projects</h2>
-            <div class="project-grid">
-                <article class="project-card">
-                    <div class="project-thumb">Project 1</div>
-                    <h3>프로젝트 1</h3>
-                    <p>프로젝트 설명을 입력하세요.</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb">Project 2</div>
-                    <h3>프로젝트 2</h3>
-                    <p>프로젝트 설명을 입력하세요.</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb">Project 3</div>
-                    <h3>프로젝트 3</h3>
-                    <p>프로젝트 설명을 입력하세요.</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact-section">
-            <h2 class="section-title">Contact</h2>
-            <p class="contact-text">작업 문의는 아래로 연락 주세요.</p>
-            <div class="contact-links">
-                <a href="mailto:hello@example.com" class="contact-link">이메일</a>
-                <a href="#" class="contact-link">링크드인</a>
-                <a href="#" class="contact-link">인스타그램</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>© 2025 Portfolio. All rights reserved.</p>
-    </footer>
-
-    <script src="main.js"></script>
+  <div class="container">
+    <h1>Vibe Noona</h1>
+    <ul>
+      <li><a href="todo_firebase/">할일 목록 (Firebase)</a></li>
+      <li><a href="movies/">현재 상영 영화</a></li>
+      <li><a href="vibe_ex01/">포트폴리오</a></li>
+    </ul>
+  </div>
 </body>
 </html>
